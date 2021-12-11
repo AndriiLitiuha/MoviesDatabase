@@ -15,15 +15,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button retry = findViewById(R.id.retry);
-        retry.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), getString(R.string.toast_retry), Toast.LENGTH_SHORT).show();
-
-            }
-        });
+        retry.setOnClickListener(view -> Toast.makeText(getApplicationContext(), getString(R.string.toast_retry), Toast.LENGTH_SHORT).show());
     }
-
-
-
 }
