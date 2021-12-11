@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button retry = findViewById(R.id.retry);
+        Button retry = findViewById(R.id.retryButt);
         retry.setOnClickListener(view -> Toast.makeText(getApplicationContext(), getString(R.string.toast_retry), Toast.LENGTH_SHORT).show());
     }
 }
