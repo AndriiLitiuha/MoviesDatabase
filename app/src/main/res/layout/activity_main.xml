@@ -32,8 +32,11 @@
 
 
     <Button
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:id="@+id/retryButt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/retry"/>
+        android:text="@string/retry"
+        android:onClick="checker" />
 </androidx.appcompat.widget.LinearLayoutCompat>
