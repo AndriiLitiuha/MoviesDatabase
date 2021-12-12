@@ -13,12 +13,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         retry = findViewById(R.id.retryButt);
     }
 
    public void checker(View view) {
-
         /*
         InternetConnectionChecker checker = new InternetConnectionChecker();*/
         if (InternetConnectionChecker.hasConnection(getApplicationContext())){
